@@ -1,10 +1,10 @@
 local On = true
 
 while On do
-
+wait (0.1)
 rep = game.ReplicatedStorage
 
 rep.RemoteEvent:FireServer{("GainMuscle")};
 rep.RemoteEvent:FireServer{("SellMuscle")};
 
-
+end
