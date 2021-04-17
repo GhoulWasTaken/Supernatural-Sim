@@ -1,0 +1,6 @@
+rep = game.ReplicatedStorage
+
+rep.RemoteEvent:FireServer{("GainMuscle")};
+rep.RemoteEvent:FireServer{("SellMuscle")};
+
+
