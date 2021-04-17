@@ -7,4 +7,11 @@ rep = game.ReplicatedStorage
 rep.RemoteEvent:FireServer{("GainMuscle")};
 rep.RemoteEvent:FireServer{("SellMuscle")};
 
+
+if On == false then
+    break
+
+
+end
+
 end
