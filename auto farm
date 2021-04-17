@@ -1,3 +1,7 @@
+local On = true
+
+while On do
+
 rep = game.ReplicatedStorage
 
 rep.RemoteEvent:FireServer{("GainMuscle")};
